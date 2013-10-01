@@ -11,7 +11,7 @@ This tool is intended to help developers of enterprise level applications to tra
 
 Current features:
 
-- assembly dependency analysis via references  
+- assembly dependency analysisss via references  
 
 
 Planned features:
