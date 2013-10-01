@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://yoursite.com
-title: Soft Tiny co
+title: Soft Tiny Co
 subtitle: Humble ISV company.
 author: Dmitry Denisov
 simple_search: http://google.com/search
@@ -29,7 +29,7 @@ email:
 root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public
+destination: /home/admin/www
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
