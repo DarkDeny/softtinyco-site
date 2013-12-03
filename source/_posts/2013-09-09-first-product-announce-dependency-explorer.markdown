@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dependency Explorer, the first Soft Tiny Co product."
+title: "Dependency Explorer, the first Soft Tiny Co product"
 date: 2013-09-09 10:39
 comments: true
 categories:
