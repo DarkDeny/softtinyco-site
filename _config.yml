@@ -4,7 +4,7 @@
 
 url: http://yoursite.com
 title: Soft Tiny Co
-subtitle: Humble ISV company.
+subtitle: Small tools solve great tasks!
 author: Dmitry Denisov
 simple_search: http://google.com/search
 description:
@@ -29,7 +29,7 @@ email:
 root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: /home/admin/www
+destination: darky-www
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
