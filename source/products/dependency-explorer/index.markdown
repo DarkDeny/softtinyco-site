@@ -5,6 +5,7 @@ date: 2013-09-19 17:45
 categories: 
 ---
 
+<div class="pull-right screenshot-right"><a href="/images/depexp-screenshot-1.png"><img src="/images/depexp-screenshot-1-preview.png" class="img-responsive img-thumbnail" alt="Dependency Explorer"></a></div>
 
 This tool is intended to help developers of enterprise level applications to track down whole tree of dependencies between examined assembly and all other libraries that it needs to be able to function. This tree can be quite complicated especially in case if application suite consists of multiple solutions.
 
