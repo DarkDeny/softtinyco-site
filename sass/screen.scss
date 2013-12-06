@@ -6,3 +6,16 @@
 @import "partials";
 @import "custom/syntax";
 @import "custom/styles";
+
+.button-block {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.button-block a.btn {
+	margin-right: 10px;
+}
+
+.page-header p.meta {
+	margin-bottom: 5px;
+}
