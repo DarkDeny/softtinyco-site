@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Products"
-date: 2013-12-04 19:21
-comments: false
-sharing: false
-footer: true
+title: "List of Soft Tiny Co products"
+date: 2013-09-19 17:45
+categories: 
 ---
 
-- [Dependency Explorer](/products/dependency-explorer)
+# Developer utilities:
+
+- [Dependency Explorer](/products/dependency-explorer)	for .NET developers of enterprise level products who need to track dependencies between different groups of assemblies.
