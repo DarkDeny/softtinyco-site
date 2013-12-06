@@ -1,4 +1,34 @@
-<ul class="main-navigation">
-  <li><a href="{{ root_url }}/">Blog</a></li>
-  <li><a href="{{ root_url }}/products/dependency-explorer.html">Dependency Explorer</a></li>
-</ul>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ root_url }}/">{{ site.title }}</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li {% if page.navbar == 'Blog' %}class="active"{% endif %}>
+                    <a href="{{ root_url }}/">Blog</a>
+                </li>
+                <li {% if page.navbar == 'Dependency Explorer' %}class="active"{% endif %}>
+                    <a href="{{ root_url }}/products/depexp">Dependency Explorer</a>
+                </li>
+                <li {% if page.navbar == 'Support' %}class="active"{% endif %}>
+                    <a href="{{ root_url }}/support">Support</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="{{ site.subscribe_rss }}" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="{{ root_url }}/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

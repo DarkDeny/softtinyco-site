@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "List of Soft Tiny Co products"
-date: 2013-09-19 17:45
-categories: 
+title: "Products"
+date: 2013-12-04 19:21
+comments: false
+sharing: false
+footer: true
 ---
 
-# Developer utilities:
-
-- [Dependency Explorer](/products/dependency-explorer.html)	for .NET developers of enterprise level products
+- [Dependency Explorer](/products/depexp)
