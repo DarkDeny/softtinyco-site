@@ -1,12 +1,15 @@
 {% unless page.no_header %}
   <header class="page-header">
     {% unless page.meta == false %}
-      <p class="meta text-muted text-uppercase">
-        {% include post/date.html %}{{ time }}
-        {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
+      <p class="meta text-muted">
+        <span class='meta-block'>{% include post/date.html %}{{ time }}</span>
+        <span class='meta-block'>{% include post/author.html %}</span>
+        <span class='meta-block'>{% if page.categories %}{% include post/categories.html %}{% endif %}</span>
+
+        <span class='meta-block'>{% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
            | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
              data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
-        {% endif %}
+        {% endif %}</span>
       </p>
     {% endunless %}
     {% if index %}
