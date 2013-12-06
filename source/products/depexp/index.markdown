@@ -18,3 +18,9 @@ more detailed info on dependency link between two assemblies (exact types of ass
 - visualization of all assemblies’ dependencies in a given folder
 
 If you are not sure if the tool is useful for you, then you can try it for free and decide if that is what you need. But please, let us know if you are missing any feature you think tool needs to have!
+
+
+<p class="button-block">
+  <a class="btn btn-lg btn-success" href="/downloads/DependencyExplorer-v1.0.0.35.zip" role="button">Download</a>
+  <a class="btn btn-lg btn-primary" href="http://sites.fastspring.com/softtiny/product/dependencyexplorer" role="button">Buy a license</a>
+</p>
