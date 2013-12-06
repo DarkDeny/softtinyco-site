@@ -7,4 +7,4 @@ sharing: false
 footer: true
 ---
 
-- [Dependency Explorer](/products/depexp)
+- [Dependency Explorer](/products/dependency-explorer)
