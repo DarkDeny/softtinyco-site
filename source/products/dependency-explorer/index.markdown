@@ -3,6 +3,7 @@ layout: page
 title: "Dependency Explorer"
 date: 2013-09-19 17:45
 categories:
+navbar: depexp
 ---
 
 <div class="pull-right screenshot-right"><a href="/images/depexp-screenshot-1.png"><img src="/images/depexp-screenshot-1-preview.png" class="img-responsive img-thumbnail" alt="Dependency Explorer"></a></div>
