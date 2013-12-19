@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dependency Explorer 1.0 released!"
+title: "Dependency Explorer 1.0 released"
 date: 2013-12-06 16:02
 comments: true
 categories: 

@@ -4,6 +4,9 @@
       <header role="banner">
         {% include navigation.html %}
       </header>
+      {% if page.url == '/index.html' %}
+        {% include custom/jumbotron.html %}
+      {% endif %}
       <div id="main" class="container">
         <div id="content">
           {{ content | expand_urls: root_url }}
